@@ -1,15 +1,8 @@
 ---
-title: "Paper Title Number 2"
+title: "Dense and well-connected subgraph detection in dual networks"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: 'Authors: Tianyi Chen, Francesco Bonchi, David Garcia-Soriano, Atsushi Miyauchi, Charalampos E. Tsourakakis'
+date: 2022
+venue: 'Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)'
+paperurl: 'https://epubs.siam.org/doi/abs/10.1137/1.9781611977172.41'
 ---
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
