@@ -1,15 +1,8 @@
 ---
-title: "Paper Title Number 3"
+title: "Novel Dense Subgraph Discovery Primitives: Risk Aversion and Exclusion Queries"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+excerpt: 'Authors: Charalampos E. Tsourakakis, Tianyi Chen, Naonori Kakimura and Jakub Pachocki'
+date: 2019
+venue: 'ECML-PKDD 2019'
+paperurl: 'https://arxiv.org/abs/1904.08178'
 ---
-This paper is about the number 3. The number 4 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
