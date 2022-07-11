@@ -19,9 +19,9 @@ News
 
 - May, 2022: Start internship at Twitter Relevance Platform - Representation team
   
-- May, 2022: Our <a href='https://arxiv.org/abs/2205.13426' target='_blank'>paper</a> 'AntiBenford Subgraphs: Unsupervised Anomaly Detection in Financial Networks' has been accepted at KDD 2022 
+- May, 2022: Our [paper](https://arxiv.org/abs/2205.13426) 'AntiBenford Subgraphs: Unsupervised Anomaly Detection in Financial Networks' has been accepted at KDD 2022 
   
-- Dec, 2021: Our <a href='https://epubs.siam.org/doi/abs/10.1137/1.9781611977172.41' target='_blank'>paper</a> 'Dense and well-connected subgraph detection in dual networks' has been accepted at SDM 2022 
+- Dec, 2021: Our [paper](https://epubs.siam.org/doi/abs/10.1137/1.9781611977172.41) 'Dense and well-connected subgraph detection in dual networks' has been accepted at SDM 2022 
   
 - May, 2021: Start internship at Google Cloud SafeBrowsing team.
 
@@ -29,4 +29,4 @@ News
 
 - May, 2019: Start internship at Google Ecosystem(Anroid) Marmot team.
 
-- Jan, 2019: Join the team of <a href='https://bkoz.seas.harvard.edu/' target='_blank'>Prof. Kozinsky</a>  as a research assistant.
+- Jan, 2019: Join the [team of Prof. Kozinsky](https://bkoz.seas.harvard.edu/)  as a research assistant.
