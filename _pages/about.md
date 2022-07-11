@@ -13,11 +13,13 @@ Tianyi Chen is a phd student from Boston University advised by Babis Tsourakakis
 News
 ======
 
+- June, 2022: Start internship at Twitter Relevance Platform - Representation team
+
 - May, 2022: Our paper 'Algorithmic Tools for Mining the Motif Structure of Networks' has been accepted at ECML-PKDD 2022 
   
 - May, 2022: Our paper 'Edge-Colored Directed Subgraph Enumeration on the Connectome' has been accepted at Scientific Reports 
 
-- May, 2022: Start internship at Twitter Relevance Platform - Representation team
+- May, 2020: We get [married](https://c752334430.github.io/files/marriage.jpg)! 
   
 - May, 2022: Our [paper](https://arxiv.org/abs/2205.13426) 'AntiBenford Subgraphs: Unsupervised Anomaly Detection in Financial Networks' has been accepted at KDD 2022 
   
