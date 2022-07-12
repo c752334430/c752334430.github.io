@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Tianyi Chen is a phd student from Boston University advised by Babis Tsourakakis. He got his Master degree in computer science from Boston University in Jan 2019. Prior to that, he earned his bachelor in Software Engineering from Xi’an Jiaotong University, China. His researches mainly focus on dense subgraph mining, graph motifs, and opinion dynamics, and have real applications in anomaly and community detection.
+Tianyi Chen is a PhD student from Boston University advised by [Charalampos Tsourakakis](https://tsourakakis.com/). He received a Master degree in computer science from Boston University in Jan 2019. Prior to that, he earned his bachelor degree in Software Engineering from Xi’an Jiaotong University, China. His research is under the graph mining area, with topics including dense subgraph discovery, graph motifs, opinion dynamics, and graph anomaly detection.
 
 News
 ======
