@@ -17,7 +17,7 @@ News
 
 - May, 2022: Our paper 'Algorithmic Tools for Mining the Motif Structure of Networks' has been accepted at ECML-PKDD 2022 
   
-- May, 2022: Our paper 'Edge-Colored Directed Subgraph Enumeration on the Connectome' has been accepted at Scientific Reports 
+- May, 2022: Our paper 'Edge-Colored Directed Subgraph Enumeration on the Connectome' has been accepted at [Nature - Scientific Reports](https://www.nature.com/srep/) 
 
 - May, 2020: We get [married](https://c752334430.github.io/files/marriage.jpg)! 
   
