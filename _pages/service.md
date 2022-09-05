@@ -15,4 +15,4 @@ author_profile: true
 
 ## Teaching
 
-- Fall, 2022: 
+- Fall, 2022: CS655 Graduate Computer Networks
