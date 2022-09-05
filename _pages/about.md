@@ -13,9 +13,13 @@ Tianyi Chen is a PhD student from Boston University advised by [Charalampos Tsou
 News
 ======
 
+- Aug, 2022: Extend the tweet recommendation project at Twitter as a part-time intern during fall semester
+
+- Aug, 2022: Our paper 'Polarizing Opinion Dynamics with Confirmation Bias' has been accepted at [SocInfo 2022](http://www.dcs.gla.ac.uk/socinfo2022/)
+
 - June, 2022: Start internship at Twitter Relevance Platform - Representation team
 
-- May, 2022: Our paper 'Algorithmic Tools for Mining the Motif Structure of Networks' has been accepted at ECML-PKDD 2022 
+- May, 2022: Our paper 'Algorithmic Tools for Mining the Motif Structure of Networks' has been accepted at [ECML-PKDD 2022](https://2022.ecmlpkdd.org/index.php/accepted-papers/) 
   
 - May, 2022: Our paper 'Edge-Colored Directed Subgraph Enumeration on the Connectome' has been accepted at [Nature - Scientific Reports](https://www.nature.com/srep/) 
 
