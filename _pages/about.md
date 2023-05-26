@@ -13,6 +13,10 @@ Tianyi Chen is a PhD student from Boston University advised by [Charalampos Tsou
 News
 ======
 
+- May, 2023: Start Algo Dev (Quant) internship at Hudson River Trading.
+
+- May, 2023: Our paper 'Densest Diverse Subgraphs: How to Plan a Successful Cocktail Party with Diversity' has been accepted at KDD 2023
+
 - Aug, 2022: Extend the tweet recommendation project at Twitter as a part-time intern during fall semester
 
 - Aug, 2022: Our paper 'Polarizing Opinion Dynamics with Confirmation Bias' has been accepted at [SocInfo 2022](http://www.dcs.gla.ac.uk/socinfo2022/)
