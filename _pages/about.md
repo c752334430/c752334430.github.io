@@ -27,7 +27,7 @@ News
   
 - May, 2022: Our paper 'Edge-Colored Directed Subgraph Enumeration on the Connectome' has been accepted at [Nature - Scientific Reports](https://www.nature.com/srep/) 
 
-- May, 2020: We get [married](https://c752334430.github.io/files/marriage.jpg)! 
+- May, 2022: We get [married](https://c752334430.github.io/files/marriage.jpg)! 
   
 - May, 2022: Our [paper](https://arxiv.org/abs/2205.13426) 'AntiBenford Subgraphs: Unsupervised Anomaly Detection in Financial Networks' has been accepted at KDD 2022 
   
