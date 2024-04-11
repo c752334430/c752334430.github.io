@@ -13,7 +13,7 @@ Tianyi Chen is a PhD student from Boston University advised by [Charalampos Tsou
 News
 ======
 
-- Apr, 2024: Successfully defend my thesis "Dense Subgraph Discovery: Novel Algorithms and Applications". Big thanks to my advisor Babis!
+- Apr, 2024: Successfully defend my thesis "Dense Subgraph Discovery: Novel Algorithms and Applications". Big thanks to my advisor Babis! [photo](https://c752334430.github.io/files/defense.jpg)
  
 - May, 2023: Start Algo Dev (Quant) internship at Hudson River Trading.
 
