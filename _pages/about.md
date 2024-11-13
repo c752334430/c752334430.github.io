@@ -8,10 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-Tianyi Chen is a PhD student from Boston University advised by [Charalampos Tsourakakis](https://tsourakakis.com/). He received a Master degree in computer science from Boston University in Jan 2019. Prior to that, he earned his bachelor degree in Software Engineering from Xi’an Jiaotong University, China. His research is under the graph mining area, with topics including dense subgraph discovery, graph motifs, opinion dynamics, and graph anomaly detection.
+Tianyi Chen is a engineer at Celonis. He received his PhD and Master degrees from Boston University advised by [Charalampos Tsourakakis](https://tsourakakis.com/). Prior to that, he earned his bachelor degree in Software Engineering from Xi’an Jiaotong University, China. His research is under the graph mining area, with topics including dense subgraph discovery, graph motifs, opinion dynamics, and graph anomaly detection.
 
 News
 ======
+
+- Oct, 2024: Our paper 'Q-DISCO: Query-Centric Densest Subgraphs in Networks with Opinion Information' has been accepted at WSDM 2025
+
+- Oct, 2024: Our paper 'Parallel Motif-based Community Detection' has been accepted at IEEE BIGDATA 2024
+
+- Jun, 2024: Start Software Engineer at Celonis.
 
 - Apr, 2024: Successfully defend my thesis "Dense Subgraph Discovery: Novel Algorithms and Applications". Big thanks to my advisor Babis! [photo](https://c752334430.github.io/files/defense.jpg)
  
