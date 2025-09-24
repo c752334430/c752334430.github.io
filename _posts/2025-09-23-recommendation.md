@@ -17,7 +17,7 @@ Assumption: If user like $i_1$, and $i_1$ is similar to $i_2$, then user is like
 
 Name the set of user like $i_k$ as $W_k$, then 
 
-$sim(i_1, i_2) = \frac{|W_1\cap W_2|}{\sqrt{|W_1|\cdot |W_2|}}$
+$$sim(i_1, i_2) = \frac{|W_1\cap W_2|}{\sqrt{|W_1|\cdot |W_2|}}$$
 
 Which is cos similarity if we encode items based on one-hot encoding of user interactions.
 
