@@ -25,7 +25,57 @@ Which is cos similarity if we encode items based on one-hot encoding of user int
 
 Say we have a community like wechat group, two irrelevant items can be liked by all the users in the group. To address this, we should weight less users from the same group. Generally, if users are unrelated but all like two items, then these two items should be more similar. This motivates the \bt{Swing} model. Name the user set that likes two items as $V$, for any two users $u_1,u_2\in V$, we estimate the probability of them coming from the same group using their liked-item overlap, $\sum_{u_1}\sum_{u_2} \frac{1}{\alpha + overlap(u_1,u_2)}$.
 
+### UserCF
+
+Assumption: If user A like $i$, user B is similar to user A, then user B may also like $i$.
+
+#### How is similarity calculated
+
+Check 1. the items liked, shared, saved by the users; 2. the authors subscribed by the users.
+
+However, popular items are liked by many users, thus they should contribute less in the similarity computation. So let $n_l$ be the number of users like item $l$, and name user $u_k$ like item set $J_k$, then
+
+$$ sim(u_1, u_2)= {\sum_{l\in J_1\cap J_2} 1/\log (1+n_l) \over \sqrt{|J_1|\cdot |J_2|}}$$
+
 ### Two tower model
+
+#### Negative sampling
+
+Easy negative: Samples not retrieved previously (uniform samples or in-batch samples). The probability that a sample  being used as negative should be propotional to $click\_num ^{0.75}$. (use log Q correction)
+
+Hard negative: Samples retrieved but not selected by the ranking models.
+
+In pactice we can mix easy and hard samples. **But You can not use samples not clicked as negatives!** While this is a conclusion from practcie, the hypothesis is that retrieval is only responsible for filter out items an user is not going to like. It is not responsible for **ranking** if an item is very interesting to the user or not.
+
+#### Serving
+
+Pre-compute embeddings for items and save in vector database. 
+
+**But we should not pre-compute embeddings for users** -- why? Cause user interest changes over time, while item property is more stable, does not change easily.
+
+#### Model update
+
+1. Full update/load: Every day, train the previous model with one day data for 1 epoch, release the new user tower and item embeddings. Random shuffle to avoid bias with time.
+
+2. Incremental udpate: Online learning. User interest can be tracked faster. We collect realtime data (hour or even minute level), and refresh ID embedding only (do not change other params in the NN). We cannot only rely on this as user behavior changes periodically.
+
+In practice we should use both updates. changes made by the incremental update should not be used in the next full update.
+
+#### Self-supervised learning
+
+Two tower can learn better embeddings for popular items but not unpopular items. So we can do data augmentation for uniformly sampled items in batch: 1. random transform item $i_1, i_2$, ... using two methods into $i_1 '$, $i_1 ''$, $i_2 '$, $i_2 ''$, .... Then train the item towers so $i_k '$, $i_k ''$ are similar, while $i_k '$, any $i_j ''$ are different (cross entropy). Add this into the total loss function.
+
+Random transformation includes: 
+
+1. Random mask that remove info of a discrete field e.g., mask out category.
+
+2. Dropout that only remove part of a discrete field, e.g., randomly remove half of the categories
+
+3. Complementary, randomly split features into two groups, transform 1 only use features from group 1, and transform 2 use features from group 2.
+
+4. Mask out a group of highly-correlated features. For example (preferred gender = female) and  (categoriy = beauty) have high correlation, we measure using mutual information. Say we have k features, compute $k\times k$ mutual information matrix. Then randomly select a seed feature, get $k/2$ features that are most related to the seed, mask all of them. **This method usually outperform other transformations**, but it's hard to implement and maintain (e.g., need to recompute mutual info for new features).
+
+**In practice this method shows very strong perf on low-popular and new items**
 
 #### Note
 
@@ -46,5 +96,25 @@ Inference: Given an user, use the NN to find top relevant paths with beam search
 1. It differs from two tower, by using paths instead of embeddings as the intermediate object. Also it aims to do multi-interest retrieval instead of single-interest in the two tower.
 2. TT deprecated deep retrieval because there is a better model. 
 3. Trinity: Syncretizing Multi-/Long-tail/Long-term Interests All in One
+
+### Other retrievals
+
+#### Author based
+
+Subscribed authors, authors you interacted with, similar authors.
+
+#### Geo based
+
+Geohash retrieval and city-based retrieval. They only maintain most popular items in the area, no personalization.
+
+#### Cache based
+
+If an item passed ranking (top 50) previously but not picked by random selection in re-rank (for diversity), then cache them for the retrieval next time.
+
+### Impression Filter
+
+If user has interacted with an item in history, then we filter them out after retrieval. This stage may not be necessary for long content like youtube videos.
+
+Filter in Brute force can waste time (thousands interacted items * thousands retrieved items). So we use bloom filter instead.
 
 ## Ranking
